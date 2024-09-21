@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <!-- Icon With Title -->
+    <link rel="icon" type="img" href="Img/Logo.jpg">
+    <link rel="stylesheet" href="">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="CSS/00 Home.css.css">
+    <!-- External JS -->
+    <script src="JS/03 products.js"></script>
+    <!-- JQuery BootStrap JavaScript -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="JS/jquery-3.7.1.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.min.css">
+    <!-- Online LINKS -->
+    <!-- Internal CSS -->
+    <style>
+        @media only screen and (min-width:176px) and (max-width:992px) {
+            .NavMenuOfProduct {
+                display: none;
+            }
+        }
+
+        @media only screen and (min-width:992px) and (max-width:1200px) {
+            .NavMenuOfProductlidropdown {
+                display: none;
+            }
+        }
+
+        @media only screen and (min-width:0px) and (max-width:768px) {
+            .NavMenuOfProductlidropdown {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body style=" background-color: rgb(197, 132, 11) !important;">
+    <header style="height: 50px; margin-bottom: 20px;">
+        <div class="fixed-top ">
+            <nav class="navbar navbar-expand-lg" style=" background-color: rgb(197, 132, 11) !important;">
+                <div class="container-fluid">
+                    <a class="navbar-brand fs-3 p-2 m-1 bg-white rounded-3 fw-bolder text-dark text-decoration-underline"
+                        role="" href="index.html" style="padding-bottom: 10px !important; margin-top: 9px !important;">
+                        <span
+                            style="margin-bottom: 0% !important; text-decoration: underline; font-style: italic; color: rgb(197, 132, 11) !important;"><img
+                                src="Img/Logo.jpg" width="" height="50px" alt=""">HomeStyler</span></a>
+                <button class=" navbar-toggler float-end me-2 btn btn-outline-light rounded-pill" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                            <i class="fa-solid fa-bars"></i>
+                            </button>
+                            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                                <ul class="navbar-nav nav-tabs  me-auto mb-2 mb-lg-0 bg-light p-2 m-1 rounded-3 border border-white border-4 justify-content-between"
+                                    style="background-color: rgb(197, 132, 11) !important;">
+                                    <li class=" nav-item dropdown d-flex">
+                                        <a href="" class="nav-link dropdown-toggle text-white fw-normal" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">Design Style</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item active" href="03.1 living room.html"
+                                                    target="_blank">Living Room</a></li>
+                                            <li><a class="dropdown-item active" href="03.2 Kitchen.html"
+                                                    target="_blank">Kitchen</a></li>
+                                            <li><a class="dropdown-item active" href="03.3 Bedroom FURNITURE.html"
+                                                    target="_blank">Bedroom</a></li>
+                                            <li><a class="dropdown-item active" href="03.4 Bathroom.html"
+                                                    target="_blank">Bathroom</a></li>
+                                            <li><a class="dropdown-item active" href="03.5 Contemporary Style.html"
+                                                    target="_blank">Contemporary Style</a></li>
+                                            <li><a class="dropdown-item active" href="03.6 Elegant Look Style.html"
+                                                    target="_blank">Elegant Look Style</a></li>
+                                            <hr class="dropdown-divider">
+                                            <li><a class="dropdown-item active"
+                                                    href="02.2 PROFESSIONAL INTERIOR DESIGNER GALLERY.html"
+                                                    target="_blank">Professional Interior Design
+                                                    Gallery</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown d-flex">
+                                        <a href="03 products.html" target="_blank"
+                                            class="nav-link text-white fw-normal">Products</a>
+                                        <a href="" class="nav-link text-white fw-normal dropdown-toggle" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false"></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item disabled text-dark " href="#">Furniture</a></li>
+                                            <li><a class="dropdown-item  disabled text-dark" href="#">Kitchen</a></li>
+                                            <li><a class="dropdown-item  disabled text-dark" href="#">Lighting</a></li>
+                                            <li><a class="dropdown-item  disabled text-dark" href="#">Decor</a></li>
+                                            <li><a class="dropdown-item  disabled text-dark" href="#">Bathroom</a></li>
+                                            <hr class="dropdown-divider">
+                                            <li><a class="dropdown-item disabled  disabled text-dark"
+                                                    href="#">Reviews</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link text-white fw-normal"
+                                            href="04 Contact Us.html" target="_blank">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link text-white fw-normal"
+                                            href="06 About Us.html" target="_blank">About Us</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link text-white fw-normal"
+                                            href="05 Feedback.html" target="_blank">Feedback</a>
+                                    </li>
+                                </ul>
+                                <form
+                                    class="d-flex bg-light p-0 m-0 ms-1 me-1 rounded-pill  border border-white border-4 "
+                                    role="search" style="background-color: white !important;">
+                                    <input class="form-control me-2 navsearch rounded-pill  border-0" type="search..."
+                                        placeholder="Search" aria-label="Search...">
+                                    <div class="">
+                                        <button class="btn fw-bolder rounded-pill text-white" type="submit" style="
+                                  background-color: rgb(197, 132, 11) !important;"><i
+                                                class="fa-solid fa-magnifying-glass content"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container  mt-5 p-3 shadow-lg rounded-top- bg-light" style="  
+        border-top-left-radius: 20px;border-top-right-radius: 20px; border-bottom: 2px dotted brown;">
+        <nav class="navbar nav-pills d-flex " id="">
+            <a class="navbar-brand border border-3 rounded-pill bg-light NavMenuOfProduct pe-2 ps-2 text-dark disabled"
+                id="NavMenuOfProduct" href="#" disabled target="_blank">Product
+                Categories</a>
+            <ul class="nav border border-3 border-body-tertiary rounded-pill bg-light ">
+                <li class="nav-item"><a class="nav-link pe-sm-0" href="#section01">Furniture</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section02">Kitchen</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section03">Lightning</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section04">Decor</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section05">Bathroom</a></li>
+                <li class="nav-item NavMenuOfProduct"><a class="nav-link NavMenuOfProduct" href="#Reviews">Reviews</a>
+                </li>
+                <li class="nav-item dropdown d-flex" id="">
+                    <a class="nav-link dropdown-toggle disabled NavMenuOfProductlidropdown" href="#"
+                        data-bs-toggle="dropdown">Discount
+                        Offers <span
+                            class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill text-decoration-line-through">
+                            Aavailable</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"></a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true"></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <section>
+        <div class="container-xl container-fluid border shadow-lg p-4 bg-light">
+            <!-- row 1 FURNITURE -->
+            <div class="container mb-2" id="section01">
+                <!-- <marquee class="w-100" behavior="" direction=""> -->
+                <h2 class="p-1 border border-muted fw-bolder text-center bg-dark text-light rounded-pill">FURNITURES
+                </h2>
+                <hr>
+                <!-- </marquee> -->
+            </div>
+            <div class="row">
+                <!-- column 01 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Sofa and Couch
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">La-Z-Boy</h6>
+                        <a href="Products Images/sofas1.jpeg"><img class="card-img-top "
+                                src="Products Images/sofas1.jpeg" alt=""
+                                style="height: 200px !important; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:$2,500</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="text-center m-3 mb-2">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <butto2
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 02 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Table
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">WayFair</h6>
+                        <a href="Img/Table final (2).jpg"><img class="card-img-top" src="Img/Table final (2).jpg" alt=""
+                                style="height: 200px; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:$3,000</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 03 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Bed and Matress
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Crate & Barrel</h6>
+                        <a href="Img/Bed Final.jpg"><img class="card-img-top" src="Img/Bed Final.jpg" alt=""
+                                style="height: 200px !important; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:$4,400</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 04 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Storage</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Al-Mirah</h6>
+                        <a href="Img/Storage final.jpg"><img class="card-img-top" src="Img/Storage final.jpg" alt=""
+                                style="height: 200px; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:$499</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 05 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Chairs and
+                            Recliners</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Moltyfoam</h6>
+                        <a href="Img/Chairs final.jpg"><img class="card-img-top" src="Img/Chairs final.jpg" alt=""
+                                style="height: 200px; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:0000</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border text-center mt-1 col-12"><a
+                        class="btn disabled text-decoration-underline text-center" role="button" chref="#">Click here
+                        for more related products....Link Disabled</a></div>
+            </div>
+            <hr>
+            <!-- row 2 -->
+            <div class="container mb-2 " id="section02">
+                <!-- <marquee class="w-100" behavior="" direction=""> -->
+                <h2 class="p-1 border border-muted fw-bolder text-center bg-dark text-light rounded-pill">KITCHEN
+                </h2>
+                <hr>
+                <!-- </marquee> -->
+            </div>
+            <div class="row">
+                <!-- column 01 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Cabinets and
+                            Pantries
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">The Kitc</h6>
+                        <a href="Products Images/sofas1.jpeg"><img class="card-img-top "
+                                src="Products Images/sofas1.jpeg" alt=""
+                                style="height: 200px !important; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:$2,500</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="text-center m-3 mb-2">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <butto2
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 02 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Counter tops
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">WayFair</h6>
+                        <a href="Products Images/sofas 2.jpeg"><img class="card-img-top"
+                                src="Products Images/sofas 2.jpeg" alt="" style="height: 200px; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:$3,000</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 03 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Sinks and
+                            Faucets</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Crate & Barrel</h6>
+                        <a href="Img/h2.jpg"><img class="card-img-top" src="Products Images/sofas 3.jpeg" alt=""
+                                style="height: 200px !important; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:$4,400</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 04 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Kitchen Islands
+                            and Carts</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Moltyfoam</h6>
+                        <a href="Img/h2.jpg"><img class="card-img-top" src="Img/Logo.webp" alt=""
+                                style="height: 200px; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:0000</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 05 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Backplashes</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Moltyfoam</h6>
+                        <a href="Img/h2.jpg"><img class="card-img-top" src="Img/Logo.webp" alt=""
+                                style="height: 200px; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:0000</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border text-center mt-1 col-12"><a
+                        class="btn disabled text-decoration-underline text-center" role="button" chref="#">Click here
+                        for more related products....Link Disabled</a></div>
+            </div>
+            <hr>
+            <!-- row 3 Lighting -->
+            <div class="container mb-2" id="section03">
+                <!-- <marquee class="w-100" behavior="" direction=""> -->
+                <h2 class="p-1 border border-muted fw-bolder text-center bg-dark text-light rounded-pill">LIGHTING
+                </h2>
+                <hr>
+                <!-- </marquee> -->
+            </div>
+            <div class="row">
+                <!-- column 01 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Ceiling Lights
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">La-Z-Boy</h6>
+                        <a href="Products Images/sofas1.jpeg"><img class="card-img-top "
+                                src="Products Images/sofas1.jpeg" alt=""
+                                style="height: 200px !important; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:$2,500</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="text-center m-3 mb-2">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <butto2
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 02 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Wall Lights
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">WayFair</h6>
+                        <a href="Products Images/sofas 2.jpeg"><img class="card-img-top"
+                                src="Products Images/sofas 2.jpeg" alt="" style="height: 200px; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:$3,000</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 03 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Floor Lamps</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Crate & Barrel</h6>
+                        <a href="Img/h2.jpg"><img class="card-img-top" src="Products Images/sofas 3.jpeg" alt=""
+                                style="height: 200px !important; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:$4,400</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 04 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Tables Lamp</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Moltyfoam</h6>
+                        <a href="Img/h2.jpg"><img class="card-img-top" src="Img/Logo.webp" alt=""
+                                style="height: 200px; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:0000</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 05 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Outdoor Lighting
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Moltyfoam</h6>
+                        <a href="Img/h2.jpg"><img class="card-img-top" src="Img/Logo.webp" alt=""
+                                style="height: 200px; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:0000</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border text-center mt-1 col-12"><a
+                        class="btn disabled text-decoration-underline text-center" role="button" chref="#">Click here
+                        for more related products....Link Disabled</a></div>
+            </div>
+            <hr>
+            <!-- row 4 Decor -->
+            <div class="container mb-2" id="section04">
+                <!-- <marquee class="w-100" behavior="" direction=""> -->
+                <h2 class="p-1 border border-muted fw-bolder text-center bg-dark text-light rounded-pill">DECOR
+                </h2>
+                <hr>
+                <!-- </marquee> -->
+            </div>
+            <div class="row">
+                <!-- column 01 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Rugs and Carpets
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">La-Z-Boy</h6>
+                        <a href="Products Images/sofas1.jpeg"><img class="card-img-top "
+                                src="Products Images/sofas1.jpeg" alt=""
+                                style="height: 200px !important; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:$2,500</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="text-center m-3 mb-2">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <butto2
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 02 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Curtains and
+                            Blinds
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">WayFair</h6>
+                        <a href="Products Images/sofas 2.jpeg"><img class="card-img-top"
+                                src="Products Images/sofas 2.jpeg" alt="" style="height: 200px; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:$3,000</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 03 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Wall Arts and
+                            Mirrors</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Crate & Barrel</h6>
+                        <a href="Img/h2.jpg"><img class="card-img-top" src="Products Images/sofas 3.jpeg" alt=""
+                                style="height: 200px !important; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:$4,400</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 04 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Cushions and
+                            Throws</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Moltyfoam</h6>
+                        <a href="Img/h2.jpg"><img class="card-img-top" src="Img/Logo.webp" alt=""
+                                style="height: 200px; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:0000</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 05 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Vases and Plant
+                            Pots</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Moltyfoam</h6>
+                        <a href="Img/h2.jpg"><img class="card-img-top" src="Img/Logo.webp" alt=""
+                                style="height: 200px; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:0000</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border text-center mt-1 col-12"><a
+                        class="btn disabled text-decoration-underline text-center" role="button" chref="#">Click here
+                        for more related products....Link Disabled</a></div>
+            </div>
+            <hr>
+
+            <!-- row 5 Bathroom -->
+            <div class="container mb-2" id="section05">
+                <!-- <marquee class="w-100" behavior="" direction=""> -->
+                <h2 class="p-1 border border-muted fw-bolder text-center bg-dark text-light rounded-pill">BATHROOM
+                </h2>
+                <hr>
+                <!-- </marquee> -->
+            </div>
+            <div class="row">
+                <!-- column 01 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Vanities and
+                            Cabinets
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">La-Z-Boy</h6>
+                        <a href="Products Images/sofas1.jpeg"><img class="card-img-top "
+                                src="Products Images/sofas1.jpeg" alt=""
+                                style="height: 200px !important; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:$2,500</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="text-center m-3 mb-2">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <butto2
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 02 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Showers and
+                            Bathtubs
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">WayFair</h6>
+                        <a href="Products Images/sofas 2.jpeg"><img class="card-img-top"
+                                src="Products Images/sofas 2.jpeg" alt="" style="height: 200px; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:$3,000</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 03 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Toilets and
+                            Bidets</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Crate & Barrel</h6>
+                        <a href="Img/h2.jpg"><img class="card-img-top" src="Products Images/sofas 3.jpeg" alt=""
+                                style="height: 200px !important; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:$4,400</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 04 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Bathroom Sinks
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Moltyfoam</h6>
+                        <a href="Img/h2.jpg"><img class="card-img-top" src="Img/Logo.webp" alt=""
+                                style="height: 200px; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:0000</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 05 -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 col p-0 mb-2">
+                    <div class="card  border p-1 shadow-sm ms-1 h-100">
+                        <h5 class="card-title text-decoration-underline disabled text-center fw-bolder">Mirrors and
+                            Medicine Cabinets</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Moltyfoam</h6>
+                        <a href="Img/h2.jpg"><img class="card-img-top" src="Img/Logo.webp" alt=""
+                                style="height: 200px; width: 100%;"></a>
+                        <div class="">
+                            <h6 class="card-title d-inline fw-bold text-dark">Price:0000</h6>
+                            <h6
+                                class="card-subtitle d-inline mb-2 text-danger text-decoration-line-through fw-light fst-italic text-opacity-75">
+                                Discount</h6>
+                            <div class="mb-2 m-3 text-center">
+                                <button class="btn btn btn-outline-success card-link">Order</button>
+                                <button
+                                    class="btn btn btn-outline-danger card-link disabled text-decoration-line-through text-muted fst-italic"
+                                    style="position: relative;">Offers<span
+                                        class="disabled badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill">0</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border text-center mt-1 col-12"><a
+                        class="btn disabled text-decoration-underline text-center" role="button" chref="#">Click here
+                        for more related products....Link Disabled</a></div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!-- REVIEW & RATING OF PRODUCTS -->
+    <section id="Reviews">
+        <div class="container-xl container-fluid border shadow-lg mb-4 bg-light">
+            <div class="container">
+
+                <!-- <marquee class="w-100" behavior="" direction=""> -->
+                <h2 class="p-1 border border-muted fw-bolder text-center  bg-success text-light rounded-pill ">REVIEWS
+                </h2>
+                <!-- </marquee> -->
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <div class="ps-2 pb-1 pt-1 m-auto"><span class="text-center te"><img
+                                        class="card-img-top rounded-circle bg-success bg-opacity-10 w-25" height=""
+                                        width="10px" src="Img/review logo.png" alt=""></span></div>
+                            <div class="card-body">
+                                <div class="card-title fw-bolder">
+                                    MUHAMMAD HAMZA
+                                </div>
+                                <h5 class="card-title">
+                                    <i class="fa-solid fa-star" style="color: yellow;"></i>
+                                    <i class="fa-solid fa-star" style="color: yellow;"></i>
+                                    <i class="fa-solid fa-star" style="color: yellow;"></i>
+                                    <i class="fa-solid fa-star-half-stroke" style="color: yellow;"></i>
+                                    <i class="fa-regular fa-star" style="color: yellow;"></i>
+                                    <SPAN class="text-success">EXCELLENT</SPAN>
+                                </h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, optio voluptatem!
+                                    Pariatur quidem iure nisi ullam recusandae ad, minima, explicabo ipsam eius
+                                    cupiditate quaerat aspernatur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="ps-2 pb-1 pt-1 m-auto"><span class="text-center te"><img
+                                        class="card-img-top rounded-circle bg-success bg-opacity-10 w-25" height=""
+                                        width="10px" src="Img/review logo.png" alt=""></span></div>
+                            <div class="card-body">
+                                <div class="card-title fw-bolder">
+                                    KALEEM ULLAH KHAN
+                                </div>
+                                <h5 class="card-title">
+                                    <i class="fa-solid fa-star" style="color: yellow;"></i>
+                                    <i class="fa-solid fa-star-half-stroke" style="color: yellow;"></i>
+                                    <i class="fa-regular fa-star" style="color: yellow;"></i>
+                                    <i class="fa-regular fa-star" style="color: yellow;"></i>
+                                    <i class="fa-regular fa-star" style="color: yellow;"></i>
+                                    <SPAN class="text-success">POOR</SPAN>
+                                </h5>
+                                <p class="card-text text-muted ">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, optio voluptatem!
+                                    Pariatur quidem iure nisi ullam recusandae ad, minima, explicabo ipsam eius
+                                    cupiditate quaerat aspernatur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="ps-2 pb-1 pt-1 m-auto"><span class="text-center te"><img
+                                        class="card-img-top rounded-circle bg-success bg-opacity-10 w-25" height=""
+                                        width="10px" src="Img/review logo.png" alt=""></span></div>
+                            <div class="card-body">
+                                <div class="card-title  fw-bolder">
+                                    M HUZAIFA
+                                </div>
+                                <h5 class="card-title">
+                                    <i class="fa-solid fa-star" style="color: yellow;"></i>
+                                    <i class="fa-solid fa-star" style="color: yellow;"></i>
+                                    <i class="fa-solid fa-star" style="color: yellow;"></i>
+                                    <i class="fa-solid fa-star" style="color: yellow;"></i>
+                                    <i class="fa-solid fa-star-half-stroke" style="color: yellow;"></i>
+                                    <SPAN class="text-success">Impressive</SPAN>
+                                </h5>
+                                <p class="card-text text-muted">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, optio voluptatem!
+                                    Pariatur quidem iure nisi ullam recusandae ad, minima, explicabo ipsam eius
+                                    cupiditate quaerat aspernatur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="nav-link disabled">Click here for more reviews....Link Disabled</a>
+            </div>
+        </div>
+    </section>
+    </div>
+    <!-- FOOTER -->
+    <style>
+        #footer_parents {
+            background-image: url(Img/Home\ bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: #977402b9;
+            border-top: rgb(0, 0, 0) 2px solid;
+        }
+
+        .footer_icon {
+            color: white;
+        }
+
+        .footer-text3 {
+            color: white;
+        }
+
+        .footer-text {
+            color: white;
+        }
+    </style>
+    <footer>
+        <div class="footer_parents p-1" id="footer_parents">
+            <!-- <div class="footer_items p-1 pe-2 ps-1" id="footer_item-1">
+                        <h2 class="text-white text-center ">HOMESTYLER</h2>
+                        <p class=" footer-text text-white">At Home Styler, we prioritize quality in every piece
+                            we offer. Our products are crafted from premium materials, ensuring durability and longevity
+                            while maintaining a stylish aesthetic. </p>
+                    </div> -->
+            <div class="footer_items shadow-lg p-1" id="footer_item-2" style="background-color: rgba(0, 0, 0, 0.466);">
+                <h5 class="text-white text-center">DESIGN</h5>
+                <a href="03.1 living room (DECOR).html"
+                    class="d-block text-white text-center text-decoration-none">Living Room</a>
+                <a href="03.2 Kitchen.html" class="d-block text-white text-center text-decoration-none">Kitchen</a>
+                <a href="03.3 Bedroom FURNITURE.html"
+                    class="d-block text-white text-center text-decoration-none">Bedroom</a>
+                <a href="03.4 Bathroom.html" class="d-block text-white text-center text-decoration-none">Bathroo </a>
+                <a href="03.5 Lighting.html" class="d-block text-white text-center text-decoration-none">Lighting</a>
+
+                </ul>
+            </div>
+            <hr>
+            <div class="footer_items" id="footer_item-3" style="background-color: rgba(0, 0, 0, 0.466);"">
+                    <h5 class=" text-white text-center">Our Contacts</h5>
+                <div class="footer_item3_Parents">
+                    <a href="" target="_blank" class="text-center d-block text-decoration-none text-white">
+                        <i class="fa-solid fa-location-dot"></i> Karachi Office, Gulshan-e-Iqbal, Block-7, opposite to
+                        Safari Park.</a>
+                    <a href="" target="_blank" class="text-center d-block text-decoration-none text-white">
+                        <i class="fa-solid fa-phone"></i> Phone: 021-34835503-5</a>
+                    <a href="" target="_blank" class="text-center d-block text-decoration-none text-white">
+                        <i class="fa-brands fa-whatsapp"></i> Phone: +923104835503</a>
+                    <a href="" target="_blank" class="text-center d-block text-decoration-none text-white">
+                        <i class="fa-regular  fa-envelope"></i> info[at]thehomestyler.com</a>
+                    <a href="" target="_blank" class="text-center d-block text-decoration-none text-white">
+                        <i class="fa-solid fa-earth-americas"></i> www.homestyler.com</a>
+                </div>
+            </div>
+            <hr>
+            <div class="footer_items" id="footer_item-4" style="background-color: rgba(0, 0, 0, 0.466);"">
+                    <h5 class=" text-center text-white">Social Media Links</h5>
+                <div class="footer_item4_Parents">
+                    <a href="" target="_blank" class="text-center d-block text-decoration-none text-white">
+                        <i class="fa-brands fa-facebook"></i> @HomeStylerFBpage</a>
+                    <a href="" target="_blank" class="text-center d-block text-decoration-none text-white">
+                        <i class="fa-brands fa-twitter"></i> @HomeStylerTwitter</a>
+                    <a href="" target="_blank" class="text-center d-block text-decoration-none text-white">
+                        <i class="fa-brands fa-instagram"></i> @HomeStylerInsta</a>
+                    <a href="" target="_blank" class="text-center d-block text-decoration-none text-white">
+                        <i class="fa-brands fa-youtube"></i> @HomeStylerYoutube</a>
+                    <a href="" target="_blank" class="text-center d-block text-decoration-none text-white">
+                        <i class="fa-brands fa-linkedin"></i> @HomeStylerLinkedin</a>
+                </div>
+            </div>
+        </div>
+        <div class="last_footer text-center text-white w-100" style=" background-color: rgb(197, 132, 11) !important;">
+            <span class="stroked-text fs-5">Copyright ©
+                2024 The
+                Home Styler. All rights reserved</span>
+        </div>
+    </footer>
+    <!-- THIS IS END -->
+</body>
+<!-- Internal JS -->
+<script></script>
+
+</html>
